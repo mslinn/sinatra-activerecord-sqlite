@@ -1,4 +1,3 @@
-require './app'
+require './app/app'
 
 run App
-

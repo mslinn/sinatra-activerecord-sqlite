@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'bcrypt'
 gem 'sinatra-activerecord'
-gem 'sqlite3'
 
 gem 'debase', '0.2.5.beta2', require: false
 gem 'rspec', require: false

@@ -1,5 +1,4 @@
 require:
-  # - rubocop-jekyll
   - rubocop-md
   - rubocop-performance
   - rubocop-rake
@@ -7,7 +6,6 @@ require:
 
 AllCops:
   Exclude:
-    - exe/**/*
     - vendor/**/*
     - Gemfile*
   NewCops: enable
@@ -30,8 +28,6 @@ Metrics/AbcSize:
   Max: 35
 
 Metrics/BlockLength:
-  Exclude:
-    - jekyll_pre.gemspec
   Max: 30
 
 Metrics/CyclomaticComplexity:

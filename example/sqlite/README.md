@@ -4,4 +4,3 @@ Run `rake db:setup`
 
 ## Usage
 Run `rackup`
-
